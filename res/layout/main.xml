@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mundo2"
+    android:orientation="vertical">
+
+    <LinearLayout android:orientation="vertical" 
+        android:id="@+id/linearLayout1" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content">
+        
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="72dp"
+	        android:text="@string/bem_vindo"
+	        android:textSize="13sp"
+	        android:textStyle="bold" />
+    </LinearLayout>    
+
+    <Button
+        android:id="@+id/bttAlterarDados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/configure"
+        android:onClick="onClickConfiguracoes"
+        android:text="Configurações" />
+
+    <Button
+        android:id="@+id/bttViewCoordenadas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/filefind2"
+        android:onClick="onClicklogCoordenadas"
+        android:text="Por onde eu passei?" />
+
+    <Button
+        android:id="@+id/bttIniciarRastreamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/schedule_file"
+        android:onClick="onClickIniciarLocalizacao"
+        android:text="Iniciar o Rastreamento" />
+
+    <Button
+        android:id="@+id/bttFinalizarRastreamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/stop2"
+        android:onClick="onClickFinalizarLocalizacao"
+        android:text="Parar o Rastreamento" />
+
+    <Button
+        android:id="@+id/bttEraseLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/trash"
+        android:onClick="onClickClear"
+        android:text="Limpar Rastreamento Anteriores" />
+
+    <Button
+        android:id="@+id/bttTeste"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onTeste"
+        android:text="Teste" />
+
+</LinearLayout>

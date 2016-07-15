@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_activity_main">Rastreador de celular</string>
+    <string name="bem_vindo">BEM VINDO! Sistema de Monitoramento Pessoal.</string>
+    <string name="action_settings">Configurações</string>
+    <string name="app_listar">FindSon-Tela Rastreamento</string>
+    <string name="title_activity_cadastro">FindSon-Tela Cadastro</string>
+    <string name="banner_passord">Digite sua senha:</string>
+    <string name="edit_passord">Senha</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_dialog_signin">::::Login::::</string>
+    <string name="title_activity_gps">GPSActivity</string>
+
+</resources>

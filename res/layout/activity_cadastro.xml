@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:label="@string/title_activity_main"
+    android:background="@drawable/mundo2">
+    <LinearLayout 
+        android:layout_height="wrap_content" 
+        android:layout_width="match_parent" 
+        android:id="@+id/linearLayout3" 
+        android:weightSum="1">
+        <LinearLayout 
+            android:orientation="vertical" 
+            android:id="@+id/linearLayout4" 
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent">
+            
+			<TextView
+			    android:id="@+id/textView2"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_alignLeft="@+id/txtLog"
+			    android:layout_alignRight="@+id/txtLog"
+			    android:layout_below="@+id/txtLog"
+			    android:layout_marginTop="14dp"
+			    android:hint="Fone"
+			    android:text="Telefone Origem (XX)9999-9999"
+			    android:textAppearance="?android:attr/textAppearanceLarge"
+			    android:textColor="#000000"
+			    android:textSize="14sp"
+			    android:typeface="sans" >
+
+			</TextView>
+
+			<EditText
+			    android:id="@+id/edtFoneOrigem"
+			    android:layout_width="fill_parent"
+			    android:layout_height="37dp"
+			    android:layout_alignLeft="@+id/textView2"
+			    android:layout_alignRight="@+id/textView2"
+			    android:layout_below="@+id/textView2"
+			    android:ems="10"
+			    android:inputType="phone"
+			    android:maxLength="10"
+			    android:typeface="sans"
+			    android:textSize="10dp">
+			 <requestFocus></requestFocus>
+            </EditText>
+        </LinearLayout>
+	</LinearLayout>
+    <LinearLayout 
+        android:layout_height="wrap_content" 
+        android:layout_width="match_parent" 
+        android:id="@+id/linearLayout15" 
+        android:weightSum="1">
+        <LinearLayout 
+            android:orientation="vertical" 
+            android:id="@+id/linearLayout16" 
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent">
+            
+			<TextView
+			    android:id="@+id/textView2"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_alignLeft="@+id/txtLog"
+			    android:layout_alignRight="@+id/txtLog"
+			    android:layout_below="@+id/txtLog"
+			    android:layout_marginTop="14dp"
+			    android:hint="Fone"
+			    android:text="Telefone Destino (XX)9999-9999"
+			    android:textAppearance="?android:attr/textAppearanceLarge"
+			    android:textColor="#000000"
+			    android:textSize="14sp"
+			    android:typeface="sans" >
+
+			</TextView>
+
+			<EditText
+			    android:id="@+id/edtFoneDestino"
+			    android:layout_width="fill_parent"
+			    android:layout_height="37dp"
+			    android:layout_alignLeft="@+id/textView2"
+			    android:layout_alignRight="@+id/textView2"
+			    android:layout_below="@+id/textView2"
+			    android:ems="10"
+			    android:inputType="phone"
+			    android:maxLength="10"
+			    android:typeface="sans"
+			    android:textSize="10dp">
+            </EditText>
+        </LinearLayout>
+	</LinearLayout>	
+    <LinearLayout 
+        android:layout_height="wrap_content" 
+        android:layout_width="match_parent" 
+        android:id="@+id/linearLayout5" 
+        android:weightSum="1">
+        <LinearLayout android:orientation="vertical" 
+            android:id="@+id/linearLayout6" 
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent">
+            
+			<TextView android:id="@+id/TextView02"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_alignLeft="@+id/edtEmail"
+			        android:layout_alignRight="@+id/edtEmail"
+			        android:layout_below="@+id/edtEmail"
+			        android:text="E-mail do Responsável"
+			        android:textColor="#000000"
+			        android:typeface="sans"
+			        android:textSize="14sp"
+			        android:textAppearance="?android:attr/textAppearanceLarge" >
+			</TextView>
+
+			<EditText
+			    android:id="@+id/edtEmail"
+			    android:layout_width="fill_parent"
+			    android:layout_height="37dp"
+			    android:layout_alignLeft="@+id/edtEmail"
+			    android:layout_alignRight="@+id/txtEmail"
+			    android:layout_below="@+id/TextView02"
+			    android:ems="10"
+			    android:textSize="10dp">
+            </EditText>
+        </LinearLayout>
+	</LinearLayout>
+
+    <LinearLayout 
+        android:layout_height="wrap_content" 
+        android:layout_width="match_parent" 
+        android:id="@+id/linearLayout7" 
+        android:weightSum="1">
+        <LinearLayout 
+            android:orientation="vertical" 
+            android:id="@+id/linearLayout8" 
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent">
+            
+			<TextView
+			    android:id="@+id/TextView02"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_alignLeft="@+id/edtSenha"
+			    android:layout_alignRight="@+id/edtSenha"
+			    android:layout_below="@+id/edtSenha"
+			    android:text="Senha do Responsável"
+			    android:textColor="#000000"
+			    android:textSize="14sp"
+			    android:textAppearance="?android:attr/textAppearanceLarge" >
+
+			</TextView>
+
+			<EditText
+			    android:id="@+id/edtSenha"
+			    android:layout_width="fill_parent"
+			    android:layout_height="37dp"
+			    android:layout_alignLeft="@+id/edtSenha"
+			    android:layout_alignRight="@+id/txtSenha"
+			    android:layout_below="@+id/TextView02"
+			    android:ems="10"
+			    android:inputType="textPassword"
+			    android:maxLength="10"
+			    android:textSize="10dp">
+            </EditText>
+        </LinearLayout>
+	</LinearLayout>
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:text=""
+        android:clickable="false"/>	    
+    
+    <LinearLayout 
+        android:layout_height="wrap_content" 
+        android:layout_width="match_parent" 
+        android:id="@+id/linearLayout1"> 
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/txtNote"
+			    	android:layout_width="wrap_content"
+			    	android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.13"
+                    android:text="Selecione opção de Notificação:"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:typeface="sans" >
+                </TextView>
+
+                <RadioGroup
+                    android:id="@+id/rgPesquisar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <RadioButton
+                        android:id="@+id/rdSms"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/rdEmail"
+                        android:layout_alignBottom="@+id/rdEmail"
+                        android:layout_alignLeft="@+id/radioGroup2"
+                        android:checked="true"
+                        android:text="SMS"
+                        android:textColor="#000000"
+                        android:textSize="10sp"
+                        android:typeface="sans" />
+
+                    <RadioButton
+                        android:id="@+id/rdEmail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignRight="@+id/TextView01"
+                        android:layout_below="@+id/TextView01"
+                        android:text="E-mail "
+                        android:textColor="#000000"
+                        android:textSize="10sp"
+                        android:typeface="sans" />
+                </RadioGroup>
+            </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout 
+            android:orientation="vertical"
+            android:layout_height="wrap_content" 
+        	android:layout_width="match_parent" 
+        	android:id="@+id/linearLayout7"
+        	android:gravity="center">
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout7"
+                android:layout_gravity="center">
+
+	                <TextView
+	                    android:id="@+id/txtNote"
+			    		android:layout_width="wrap_content"
+			    		android:layout_height="wrap_content"
+	                    android:layout_gravity="center"
+	                    android:text="Intervalo do Rastreamento:"
+	                    android:textAppearance="?android:attr/textAppearanceMedium"
+	                    android:textColor="#000000"
+    	                android:textSize="14sp"
+        	            android:typeface="sans">
+	                </TextView>
+
+					<EditText
+					    android:id="@+id/edtIntervalo"
+					    android:layout_width="44dp"
+					    android:ems="2"
+					    android:maxLength="2"
+					    android:inputType="number"
+					    android:layout_height="37dp"
+					    android:textSize="10dp">
+		            </EditText>
+		            
+	                <TextView
+	                    android:id="@+id/txtMinutos"
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_gravity="center"
+	                    android:text="Minutos (00)"
+	                    android:textAppearance="?android:attr/textAppearanceMedium"
+	                    android:textColor="#000000"
+	                    android:textSize="14sp"
+	                    android:typeface="sans" >
+
+	                </TextView>		                            
+
+            </LinearLayout>
+    </LinearLayout>
+
+        <LinearLayout 
+            android:orientation="vertical"
+            android:layout_height="wrap_content" 
+        	android:layout_width="match_parent" 
+        	android:id="@+id/linearLayout11"
+        	android:gravity="center">
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout12"
+                android:layout_gravity="center">
+
+	                <TextView
+	                    android:id="@+id/txtTempo"
+			    		android:layout_width="wrap_content"
+			    		android:layout_height="wrap_content"
+	                    android:layout_gravity="center"
+	                    android:text="Tempo de notificação:"
+	                    android:textAppearance="?android:attr/textAppearanceMedium"
+	                    android:textColor="#000000"
+    	                android:textSize="14sp"
+        	            android:typeface="sans">
+	                </TextView>
+
+					<EditText
+					    android:id="@+id/edtTempo"
+					    android:layout_width="44dp"
+					    android:ems="2"
+					    android:maxLength="2"
+					    android:inputType="number"
+					    android:layout_height="37dp"
+					    android:textSize="10dp">
+		            </EditText>
+		            
+	                <TextView
+	                    android:id="@+id/txtMinuto"
+	                    android:layout_width="fill_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_gravity="center"
+	                    android:text="Minutos (00)"
+	                    android:textAppearance="?android:attr/textAppearanceMedium"
+	                    android:textColor="#000000"
+	                    android:textSize="14sp"
+	                    android:typeface="sans" >
+
+	                </TextView>		                            
+
+            </LinearLayout>
+    </LinearLayout>
+    
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:text=""
+        android:clickable="false"/>	    
+    
+    <LinearLayout 
+        	android:orientation="vertical" 
+           	android:layout_height="wrap_content" 
+       		android:layout_width="match_parent" 
+        	android:id="@+id/linearLayout1">
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/bttIniciarRastreamento"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/rdSms"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignRight="@+id/bttAlterarCadastro"
+                    android:layout_marginBottom="41dp"
+                    android:layout_weight="0.57"
+                    android:onClick="onInsert"
+                    android:drawableLeft="@drawable/insert"
+                    android:text="Salvar" />
+
+                <Button
+                    android:id="@+id/bttAlterarCadastro"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/bttIniciarRastreamento"
+                    android:layout_alignLeft="@+id/rdSms"
+                    android:layout_alignRight="@+id/rdEmail"
+                    android:layout_weight="0.68"
+                    android:onClick="onAlter"
+                    android:drawableLeft="@drawable/update"
+                    android:text="Alterar" />
+            </LinearLayout>
+
+    </LinearLayout>
+    
+  
+    
+</LinearLayout>
